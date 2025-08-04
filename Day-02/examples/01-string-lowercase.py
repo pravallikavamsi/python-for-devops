@@ -3,3 +3,7 @@ uppercase = text.upper()
 lowercase = text.lower()
 print("Uppercase:", uppercase)
 print("Lowercase:", lowercase)
+text = 'my name is pravallika'
+uppercase = text.upper()
+lowercase = text.lower()
+print(uppercase, lowercase)
