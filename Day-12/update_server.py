@@ -3,6 +3,7 @@ def update_server_config(file_path, key, value):
     with open(file_path, 'r') as file:
         lines = file.readlines()
 
+
     # Update the configuration value for the specified key
     with open(file_path, 'w') as file:
         for line in lines:
@@ -18,8 +19,8 @@ def update_server_config(file_path, key, value):
 server_config_file = 'server.conf'
 
 # Key and new value for updating the server configuration
-key_to_update = 'MAX_CONNECTIONS'
-new_value = '600'  # New maximum connections allowed
+key_to_update = 'TIMEOUT'
+new_value = '40'  # New maximum connections allowed
 
 # Update the server configuration file
 update_server_config(server_config_file, key_to_update, new_value)
