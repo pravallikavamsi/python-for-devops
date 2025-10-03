@@ -6,7 +6,7 @@ import json
 
 url = "https://vallivamsi2018.atlassian.net//rest/api/3/issue"
 
-API_TOKEN='ATATT3xFfGF0JU957LB-qRRz3PP6e4jjYNqSQuNuuTScn8RhzCgV2xd1lNbVE57eILZ-S7LpUgrsBh2kDhYo43He6b812kyBjezy9YasjqZnRNw_ot-RX56IubdC_Sasva2k8qwsNhqBSXc0zn0kS643smQLw-sh1f7hH_-i6F_dHpa2uR3Nm1s=457622FB'
+API_TOKEN='ATATT3xFfGF0ylkiuuXRJZThES56k1Lf2fAFpEeJjQkhPOTr0zXaYnk7GNS7zgrEz9NAXGkkgtqBb4qa2GCF34TuqGsmxjYuVbQROUCzbtbFvikV0VSq5BeXTjsmlSVI_M_66OmdUWqGqrLGHb1d13ydz1i2K7EDnT8jANdftEK4B2Xdoi2Sufg=892B1396'
 
 auth = HTTPBasicAuth("vallivamsi2018@gmail.com", API_TOKEN)
 
@@ -43,7 +43,7 @@ payload = json.dumps( {
       "key": "PRAV"
     },
 
-    "summary": "Jira ticket - 10",
+    "summary": "Jira ticket - 25",
   },
   "update": {}
 } )
